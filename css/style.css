@@ -98,7 +98,7 @@ h5,
 h6 {
 	font-family: 'Exo', sans-serif;
 	font-weight: normal;
-	color: #002052;
+	color: #1e1e1e;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 500;
@@ -141,7 +141,7 @@ p {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 24px;
-	color: #002052;
+	color: #1e1e1e;
 	margin-bottom: 15px;
 }
 hr {
@@ -224,7 +224,7 @@ label {
 	bottom: 0px;
 	content: "";
 	position: absolute;
-	background-color: #002052;
+	background-color: #1e1e1e;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -237,7 +237,7 @@ label {
 	right: auto;
 }
 .border-btn {
-	border: 2px solid #002052;
+	border: 2px solid #1e1e1e;
 	background: transparent;
 	color: #012153;
 	padding: 14px 40px;
@@ -255,7 +255,7 @@ label {
 	background-color: #7e0000;
 }
 .black-btn {
-	background-color: #002052;
+	background-color: #1e1e1e;
 }
 .black-btn::before {
 	background-color: #7e0000;
@@ -279,7 +279,7 @@ label {
 }
 /* 2. header */
 .header-top {
-	background-color: #002052;
+	background-color: #4d0c0c;
 }
 .header-top ul{
     overflow: hidden;
@@ -330,7 +330,7 @@ label {
 .main-menu ul li a {
 	display: block;
 	padding: 44px 0;
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -447,7 +447,7 @@ label {
 	color: #7e0000;
 }
 .header-2 .main-menu ul li ul.submenu li a {
-	color: #002052;
+	color: #1e1e1e;
 }
 .header-2 .main-menu ul li ul.submenu li:hover > a {
 	color: #7e0000;
@@ -482,7 +482,7 @@ label {
 .slider-content h1 {
 	font-size: 65px;
 	font-weight: 700;
-	color: #002052;
+	color: #1e1e1e;
 	line-height: 75px;
 	margin-bottom: 15px;
 	text-transform: uppercase;
@@ -612,7 +612,7 @@ label {
 	line-height: 70px;
 	color: transparent;
 	left: 0;
-	-webkit-text-stroke: 2px #f6f6f6;
+	-webkit-text-stroke: 2px #fff;
 	top: -52px;
 	margin-bottom: 0;
 	z-index: -1;
@@ -671,14 +671,14 @@ label {
 .about-btn a.about-l-btn {
 	font-size: 15px;
 	font-weight: 700;
-	color: #002052;
+	color: #1e1e1e;
 	text-transform: uppercase;
 }
 .about-btn a.about-l-btn i {
 	height: 20px;
 	width: 20px;
 	font-size: 8px;
-	background: #002052;
+	background: #1e1e1e;
 	color: #fff;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -762,7 +762,7 @@ label {
 }
 .about-2 .about-right-content h5 {
 	font-size: 16px;
-	color: #002052;
+	color: #1e1e1e;
 }
 .about-2 .about-right-content h3 {
 	font-size: 40px;
@@ -863,7 +863,7 @@ label {
 	font-size: 12px;
 }
 .services-box-text a:hover {
-	color: #002052;
+	color: #1e1e1e;
 }
 .services-box-thumb {
 	position: relative;
@@ -931,7 +931,7 @@ label {
 	text-transform: uppercase;
 }
 .services-link a {
-	color: #002052;
+	color: #1e1e1e;
 }
 .services-link a:hover {
 	color: #7e0000;
@@ -1016,7 +1016,7 @@ label {
 	height: 50px;
 	width: 50px;
 	background: transparent;
-	color: #002052;
+	color: #1e1e1e;
 	border: 1px solid #ededed;
 	font-size: 15px;
 	font-weight: 600;
@@ -1033,6 +1033,11 @@ label {
 	box-shadow: 0px 8px 16px 0px hsla(19, 100%, 54%, 0.329);
 }
 /* 7. brand */
+
+.white{
+	color: #fff !important;
+}
+
 .single-brand {
 	padding: 0 10px;
 }
@@ -1082,6 +1087,7 @@ label {
 	-webkit-text-stroke: 2px #ff7232;
 }
 .feature-single {
+	min-height: 270px;
 	background-color: #fff;
 }
 .feature-single .feature-thumb {
@@ -1108,7 +1114,7 @@ label {
 	-o-transform: scale(1.1);
 }
 .feature-text {
-	padding: 28px 22px 31px 30px;
+	padding: 15px 10px 15px 10px;
 }
 .feature-text h1 {
 	/* font-size: 14px; */
@@ -1133,7 +1139,7 @@ label {
 	color: #7e0000;
 }
 .process-area .section-title h2 {
-	color: #002052;
+	color: #1e1e1e;
 }
 .process-area .border-title h1 {
 	-webkit-text-stroke: 2px #f0f0f0;
@@ -1225,19 +1231,19 @@ label {
 	color: #7e0000;
 }
 .text-box input::-moz-placeholder {
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 15px;
 }
 .text-box input::placeholder {
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 15px;
 }
 .message-box textarea::-moz-placeholder {
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 15px;
 }
 .message-box textarea::placeholder {
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 15px;
 }
 .message-box button {
@@ -1338,7 +1344,7 @@ label {
 	content: "";
 	left: 0;
 	top: 0;
-	background: #001a42;
+	background: #000;
 	width: 100%;
 	height: 100%;
 	opacity: .85;
@@ -1384,7 +1390,7 @@ label {
 	float: none;
 }
 .counter-2 .counter-box h1 {
-	color: #002052;
+	color: #1e1e1e;
 	float: none;
 	position: relative;
 	z-index: 1;
@@ -1400,7 +1406,7 @@ label {
 	top: -12px;
 }
 .counter-2 .counter-right-text p {
-	color: #002052;
+	color: #1e1e1e;
 }
 .counter-2 .counter-box {
 	margin-bottom: 90px;
@@ -1490,7 +1496,7 @@ label {
 }
 .testimonial-2 .testimonial-single,
 .testimonial-2 .testimonial-single-2 {
-	background: #002052;
+	background: #1e1e1e;
 	padding: 50px 30px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1541,7 +1547,7 @@ label {
 .testimonial-active-2.owl-carousel .owl-nav .owl-next {
 	left: auto;
 	right: 0;
-	background-color: #002052;
+	background-color: #1e1e1e;
 }
 /* 12. team */
 .team-area {
@@ -1658,7 +1664,7 @@ label {
 .blog-image::before {
 	position: absolute;
 	content: "";
-	background-color: #002052;
+	background-color: #1e1e1e;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -1733,7 +1739,7 @@ label {
 	background-color: #7e0000;
 }
 .blog-tag-2 span {
-	background: #002052;
+	background: #1e1e1e;
 }	
 .blog-top-btn.text-right {
 	margin-top: 31px;
@@ -1744,7 +1750,7 @@ label {
 }
 .blog-item:hover .blog-content .blog-text h2,
 .blog-item:hover .blog-content .blog-text p {
-	color: #002052;
+	color: #1e1e1e;
 }
 .blog-item:hover .blog-content .blog-author h4 {
 	color: #7e0000;
@@ -1763,7 +1769,7 @@ label {
 }
 .b-content .b-meta span a {
 	font-size: 14px;
-	color: #002052;
+	color: #1e1e1e;
 	margin-right: 15px;
 }
 .b-content .b-meta span a i {
@@ -1791,7 +1797,7 @@ label {
 	padding-left: 2px;
 }
 .b-content .b-btn a:hover {
-	color: #002052;
+	color: #1e1e1e;
 }
 .post-thumb img {
 	width: 100%;
@@ -1801,12 +1807,12 @@ label {
 	padding-bottom: 40px;
 }
 .post-meta span {
-	color: #002052;
+	color: #1e1e1e;
 	margin-right: 25px;
 	display: inline-block;
 }
 .post-meta span a {
-	color: #002052;
+	color: #1e1e1e;
 }
 .post-meta span i {
 	color: #7e0000;
@@ -2000,7 +2006,7 @@ label {
 	padding-bottom: 0;
 }
 .widget .cat a {
-	color: #002052;
+	color: #1e1e1e;
 	font-size: 15px;
 	display: block;
 }
@@ -2065,12 +2071,12 @@ label {
 	min-height: 545px;
 }
 .footer-area {
-	background-color: #001b46;
+	background-color: #000;
 }
 .footer-left-widget {
 	padding: 75px 32px;
 	padding-bottom: 60px;
-	background: #00173c;
+	background: #000;
 	border-top: 4px solid #7e0000;
 }
 .footer-logo {
@@ -2088,7 +2094,7 @@ label {
 	display: inline-block;
 	text-align: center;
 	line-height: 30px;
-	color: #002052;
+	color: #1e1e1e;
 	margin-right: 8px;
 }
 .footer-left-widget .footer-social a:hover {
@@ -2193,7 +2199,7 @@ label {
 	font-weight: 500;
 }
 .copyright-area {
-	background: #00173c;
+	background: #000;
 }
 .copyright-text p {
 	font-size: 13px;
@@ -2380,7 +2386,7 @@ label {
 .pricing-price h3 span {
 	font-size: 15px;
 	font-weight: 700;
-	color: #002052;
+	color: #1e1e1e;
 }
 .pricing-text p {
 	margin-bottom: 0;
@@ -2405,7 +2411,7 @@ label {
 }
 .pricing-single:hover .pricing-btn .black-btn, .pricing-single.active .pricing-btn .black-btn {
 	background-color: #fff;
-	color: #002052;
+	color: #1e1e1e;
 }
 /* 17. faq */
 .faq-left {
@@ -2440,7 +2446,7 @@ label {
 }
 .faq-wrapper .card-header h5 a {
 	font-size: 15px;
-	color: #002052;
+	color: #1e1e1e;
 	font-weight: 600;
 	display: block;
 	text-decoration: none;
