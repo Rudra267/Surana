@@ -38,6 +38,11 @@
 	font-style: normal;
 	font-size: 15px;
 }
+
+.target-container{
+padding: 30px 30px 30px 30px !important;	
+}
+
 .img {
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
