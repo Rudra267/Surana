@@ -2607,6 +2607,7 @@ border: 2px solid #F17681;
   /* divison-part */
 
 .divison-part {
+	background-color: #e8e8e8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
